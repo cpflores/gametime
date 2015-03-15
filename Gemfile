@@ -28,6 +28,7 @@ gem 'simple_form', '~> 3.1.0'
 gem 'devise', '~> 3.4.1'
 gem 'gravatarify', '~> 3.1.1'
 gem 'public_activity', '~> 1.4.2'
+gem 'auto_html', '~> 1.6.4'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
