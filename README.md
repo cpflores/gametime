@@ -1,6 +1,6 @@
-# Gametime
+# Cafecito
 
-This is a sample social network application for finding pickup games near you. I built it using a few new gems: 
+This is a sample social network application for finding people to enjoy coffee with near you. I built it using a few new gems: 
 * Devise - easy authentification
 * Bootstrap - quick front end elements
 * Bootsnipp - UI elements compatible with Bootstrap
