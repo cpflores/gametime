@@ -29,6 +29,7 @@ gem 'gravatarify', '~> 3.1.1'
 gem 'public_activity', '~> 1.4.2'
 gem 'auto_html', '~> 1.6.4'
 gem 'font-awesome-rails', '~> 4.3.0.0'
+gem 'dotenv-rails', '~> 2.0.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
