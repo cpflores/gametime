@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
+.spacer {
 	padding-top: 50px;
 }
 
@@ -29,6 +29,9 @@ body {
   -o-background-size: cover;
   background-size: cover; 
   height: 100vh;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 /* Base structure */
@@ -129,4 +132,5 @@ body {
 #header-text {
   color: #f39c12;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  z-index: 1;
 }
