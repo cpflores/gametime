@@ -1,5 +1,5 @@
 <div class="jumbotron text-center">
-	<h1>Activity Feed</h1>
+	<h1 id="header-text">Activity Feed</h1>
 	<div class="btn-group" role="group" aria-label="default">
 		<%= link_to "All", activities_path, class: "btn btn-default #{'active' unless params[:content]}" %>
 		<%= link_to "Just Posts", activities_path(content: "posts"), class: "btn btn-default #{'active' if params[:content]}" %>

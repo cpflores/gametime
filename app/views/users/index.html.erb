@@ -1,5 +1,5 @@
 <div class="jumbotron text-center">
-  <h1>People</h1>
+  <h1 id="header-text">People</h1>
   <div class="btn-group" role="group" aria-label="Default Button Groups">
     <%= link_to "All", users_path, class: "btn btn-default #{'active' unless params[:people]}" %>
     <%= link_to "Friends (#{@friend_count})", users_path(people: "friends"), class: "btn btn-default #{'active' if params[:people] == 'friends'}" %>
