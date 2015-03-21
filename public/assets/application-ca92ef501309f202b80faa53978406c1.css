@@ -253,14 +253,11 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
-  text-align: center;
-  color: #fff;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 /* Base structure */
 /*css for full size background image*/
-/* line 40, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
+/* line 37, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
 .landing {
   background: url(espresso.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -275,7 +272,7 @@ body {
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
-/* line 55, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
+/* line 52, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
 .site-wrapper {
   display: table;
   width: 100%;
@@ -284,33 +281,37 @@ body {
   min-height: 100%;
   -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* line 63, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
+/* line 65, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
 }
 
-/* line 67, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
+/* line 69, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
 .cover-container {
   margin-right: auto;
   margin-left: auto;
 }
 
 /* Padding for spacing */
-/* line 73, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
+/* line 75, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
 .inner {
   padding: 30px;
 }
 
 /* Cover */
-/* line 79, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
+/* line 81, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
 .cover {
   padding: 0 20px;
 }
 
-/* line 82, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
+/* line 84, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
@@ -319,27 +320,27 @@ body {
 /* Affix and center */
 @media (min-width: 768px) {
   /* Pull out the header and footer */
-  /* line 91, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
+  /* line 93, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
   .masthead {
     position: fixed;
     top: 0;
   }
 
-  /* line 95, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
+  /* line 97, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
   .mastfoot {
     position: fixed;
     bottom: 0;
   }
 
   /* Start the vertical centering */
-  /* line 100, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
+  /* line 102, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
   .site-wrapper-inner {
     padding-top: 80px;
     vertical-align: middle;
   }
 
   /* Handle the widths */
-  /* line 105, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
+  /* line 107, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
   .masthead,
   .mastfoot,
   .cover-container {
@@ -348,24 +349,24 @@ body {
   }
 }
 @media (min-width: 992px) {
-  /* line 113, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
+  /* line 115, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
   .masthead,
   .mastfoot,
   .cover-container {
     width: 700px;
   }
 }
-/* line 120, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
+/* line 122, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
 #copyright {
   color: #fff;
 }
 
-/* line 124, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
+/* line 126, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
 #logo {
   color: #f39c12;
 }
 
-/* line 128, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
+/* line 130, /Users/rootsofsuccess/Code/gametime/app/assets/stylesheets/pages.css.scss */
 #header-text {
   color: #f39c12;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
