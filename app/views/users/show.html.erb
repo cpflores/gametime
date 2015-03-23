@@ -6,10 +6,10 @@
       </div>
 
       <div class="col-md-4">
-        <h2>
+        <h2 id="header-text">
           <%= @user.username %> 
           <% if current_user && current_user == @user %>
-            <small><%= link_to "Edit Profile", edit_user_registration_path %></small>
+           <span><small><%= link_to "Edit Profile", edit_user_registration_path, class: "btn btn-sm btn-primary" %></small></span>
           <% end %>
         </h2>
         <p>Age: <%= @user.age %></p>
